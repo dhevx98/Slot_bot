@@ -13,7 +13,7 @@ bot = telebot.TeleBot(TOKEN)
 # Path file JSON lokal
 JSON_PATH = "slot_data.json"
 # URL file JSON online
-JSON_URL = "https://yourserver.com/slot_data.json"
+JSON_URL = "https://dhevx98.github.io/Slot_bot/slot_data.json"
 
 # --- AUTO UPDATE JSON SETIAP 1 JAM ---
 def auto_update_json():
