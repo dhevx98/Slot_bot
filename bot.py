@@ -7,7 +7,7 @@ import threading
 from datetime import datetime, timedelta
 
 TOKEN = "7260897874:AAH2hAjrKmuso_u2fWwkJmWZ80FzHNOuMJk"
-JSON_URL = "https://github.com/dhevx98/slot_bot/bot.py"  # Ganti dengan URL raw kamu
+JSON_URL = "https://raw.githubusercontent.com/dhevx98/slot_bot/main/slot_data.json"  # Ganti dengan URL raw kamu
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -106,4 +106,3 @@ def send_panel(message):
     markup = telebot.types.InlineKeyboardMarkup()
     markup.add(
         telebot.types.InlineKeyboardButton("🎮
-
