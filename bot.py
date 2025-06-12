@@ -7,7 +7,7 @@ import threading
 from datetime import datetime, timedelta
 
 TOKEN = "7260897874:AAH2hAjrKmuso_u2fWwkJmWZ80FzHNOuMJk"
-JSON_URL = "https://github.com/dhevx98/slot_bot"  # Ganti dengan URL raw kamu
+JSON_URL = "https://github.com/dhevx98/slot_bot/bot.py"  # Ganti dengan URL raw kamu
 
 bot = telebot.TeleBot(TOKEN)
 
